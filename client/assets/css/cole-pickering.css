@@ -1,0 +1,24 @@
+body {
+    background-image:url("../img/bg.png");
+}
+
+.header {
+    padding: 7rem 0;
+}
+
+[data-sticky] {
+    width: 100%; }
+
+.quote {
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Maven Pro', sans-serif;
+}
+.author {
+    font-weight: normal;
+    font-size: large;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+

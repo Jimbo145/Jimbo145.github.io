@@ -1,0 +1,46 @@
+{
+    "name": "colepickering",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+        "start": "gulp",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "TODO: add git url"
+    },
+    "keywords": [
+        "TODO: Add Keywords"
+    ],
+    "dependencies": {
+        "angular": "1.4.7",
+        "angular-animate": "1.4.7",
+        "angular-cookies": "1.4.7",
+        "angular-resource": "1.4.7",
+        "angular-sanitize": "1.4.7",
+        "foundation-sites": "6.2.3",
+        "angular-foundation-6": "0.9.36"
+    },
+    "devDependencies": {
+        "eslint": "1.10.3",
+        "eslint-config-airbnb": "2.0.0",
+        "gulp": "^3.9.0",
+        "gulp-autoprefixer": "^2.3.1",
+        "gulp-concat": "^2.6.0",
+        "gulp-eslint": "1.1.1",
+        "gulp-headerfooter": "^1.0.3",
+        "gulp-if": "^1.2.5",
+        "gulp-sass": "^2.0.3",
+        "gulp-load-plugins": "1.0.0-rc.1",
+        "gulp-ng-annotate": "1.1.0",
+        "gulp-ng-html2js": "^0.2.0",
+        "gulp-uglify": "^1.2.0",
+        "gulp-webserver": "^0.9.1",
+        "rimraf": "^2.4.1",
+        "run-sequence": "^1.1.1",
+        "yargs": "^3.15.0"
+    },
+    "license": "All Rights Reserved",
+    "private": true
+}

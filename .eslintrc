@@ -1,0 +1,16 @@
+{
+    "extends": "airbnb/base",
+    "env":{
+        "browser": 1
+    },
+    "globals": {
+        "angular": 1,
+        "mapboxgl": 1
+    },
+    "rules": {
+        "indent": [2, 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
+        "no-var": 0,
+        "vars-on-top": 0,
+        "func-names": 0
+    }
+}
