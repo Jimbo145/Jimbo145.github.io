@@ -1,0 +1,68 @@
+body {
+    background-image:url("../img/bg.png");
+}
+
+.header {
+    padding: 7rem 0;
+}
+
+[data-sticky] {
+    width: 100%; }
+
+.name {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: xx-large;
+}
+
+.subtitle {
+    font-size: x-large;
+}
+
+.quote {
+    font-size: x-small;
+    font-family: 'Merriweather', serif;
+}
+
+.subtitle-dot {
+    font-size: xx-large;
+}
+
+.attribution {
+    color: white;
+    font-size: medium;
+    font-family: Arial;
+
+}
+
+.bottom-border {
+    border-style: solid;
+    border-color: white;
+    /*border-top: none;*/
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.11);
+    border-width: 1px;
+}
+
+.full-height{
+    height:100%;
+}
+
+.solid-bg {
+    background: #53979e;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .solid-bg {
+        background: rgba(83, 151, 158, 0.45); !important;
+    }
+}
+
+.headshot {
+    max-width: 150px;
+}
+
+.logo {
+    max-width: 55px;
+}
+
+
