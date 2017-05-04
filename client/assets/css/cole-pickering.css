@@ -9,27 +9,23 @@ body {
 [data-sticky] {
     width: 100%; }
 
-.quote {
+.name {
+    font-family: 'Merriweather', serif;
     color: white;
-    font-weight: bold;
     font-size: xx-large;
-    font-family: 'Maven Pro', sans-serif;
-}
-.author {
-    font-weight: normal;
-    font-size: large;
-    font-family: 'Maven Pro', sans-serif;
 }
 
-.placeholder {
-    font-family: 'Nothing You Could Do', cursive;
-    color: white;
-    font-size: 5em;
-    border-style: solid;
-    border-bottom: none;
-    border-color: white;
-    box-shadow: 5px 0px rgba(0, 0, 0, 0.11);
-    border-width: 1px;
+.subtitle {
+    font-size: x-large;
+}
+
+.quote {
+    font-size: x-small;
+    font-family: 'Merriweather', serif;
+}
+
+.subtitle-dot {
+    font-size: xx-large;
 }
 
 .attribution {
@@ -42,13 +38,31 @@ body {
 .bottom-border {
     border-style: solid;
     border-color: white;
-    border-top: none;
+    /*border-top: none;*/
     box-shadow: 5px 5px rgba(0, 0, 0, 0.11);
     border-width: 1px;
 }
 
+.full-height{
+    height:100%;
+}
+
 .solid-bg {
     background: #53979e;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .solid-bg {
+        background: rgba(83, 151, 158, 0.45); !important;
+    }
+}
+
+.headshot {
+    max-width: 150px;
+}
+
+.logo {
+    max-width: 55px;
 }
 
 
