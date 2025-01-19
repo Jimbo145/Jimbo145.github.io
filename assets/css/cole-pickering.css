@@ -62,6 +62,10 @@ body {
 }
 
 .logo {
+    max-width: 55px;
+}
+
+.cplogo {
     scale:2;
 }
 
